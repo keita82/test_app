@@ -47,7 +47,6 @@ else:
 if st.button("プライム市場 売買代金上位50銘柄"):
     # prime_DataFrame
     prime_value_top50 = {'code': [], 'name': [], 'prime_margin_buy_new': [], 'prime_margin_buy_close': [], 'prime_margin_sell_new': [], 'prime_margin_sell_close': [], 'prime_buy_balance': [], 'prime_sell_balance': []}
-    # growth_value_top50 = {'code': [], 'name': [], 'growth_margin_buy_new': [], 'growth_margin_buy_close': [], 'growth_margin_sell_new': [], 'growth_margin_sell_close': [], 'growth_buy_balance': [], 'growth_sell_balance': []}
 
     # プライム市場のランキング取得
     response = requests.get(prime_ranking_url)
