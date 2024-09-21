@@ -77,3 +77,4 @@ beautifulsoup4
 matplotlib
 mplfinance
 cffi==1.14.6
+distutils
