@@ -396,14 +396,8 @@ if st.button("投資部門別売買状況"):
     plt.legend()
     plt.grid(True)
 
-    # 日付のフォーマットを調整
-    # plt.gca().xaxis.set_major_formatter(plt.FixedFormatter(df["PublishedDate"].dt.strftime("%Y-%m-%d")))
-
     plt.xticks(rotation=45)
     plt.tight_layout()
 
     # Streamlitで表示する場合
     st.pyplot(plt)
-
-    # または、Matplotlibのプロットを表示する場合
-    # plt.show()
