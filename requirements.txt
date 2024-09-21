@@ -1,8 +1,7 @@
 streamlit
 requests
 pandas
-json
-datetime
-BeautifulSoup
-matplotlib.pyplot
+BeautifulSoup4
+matplotlib
 mplfinance
+pip>=24.2
